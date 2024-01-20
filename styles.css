@@ -66,3 +66,20 @@ button.learn-more:active::before {
     box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
     -webkit-transform: translate3d(0, 0, -1em);
     transform: translate3d(0, 0, -1em);
+}
+
+body {
+    margin: 0;
+    /* Remove default margin */
+}
+
+iframe {
+    display: block;
+    /* iframes are inline by default */
+    height: 100vh;
+    /* Set height to 100% of the viewport height */
+    width: 100vw;
+    /* Set width to 100% of the viewport width */
+    border: none;
+    /* Remove default border */
+}
