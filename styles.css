@@ -20,6 +20,8 @@ iframe {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
 }
 
 button.round {
@@ -30,7 +32,6 @@ button.round {
     font-size: 31px;
     height: 130px;
     width: 130px;
-    box-shadow: 0 2px 4px darkslategray;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.2s ease;
