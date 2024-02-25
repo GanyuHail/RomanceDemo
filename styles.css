@@ -28,14 +28,15 @@ button.round {
     background-color: #48abe0;
     color: white;
     border: none;
-    padding: 5px;
-    font-size: 1.7em;
+    /* padding: 5px; */
+    font-size: 3em;
     font-weight: light;
-    height: 2em;
-    width: 2em;
+    height: 2.1em;
+    width: 2.1em;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.2s ease;
+    white-space: nowrap;
 }
 
 button.round:hover {
