@@ -29,7 +29,8 @@ button.round {
     color: white;
     border: none;
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    font-weight: light;
     height: 2em;
     width: 2em;
     border-radius: 50%;
