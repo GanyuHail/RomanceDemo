@@ -33,6 +33,7 @@ button.round {
     font-weight: light;
     height: 2.1em;
     width: 2.1em;
+    line-height: 2.1em;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.2s ease;
